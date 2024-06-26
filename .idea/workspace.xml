@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcc62628-56ee-4075-9a2b-2cd4f39836a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/myshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/.idea/myshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/templates/cart/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/cart/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/templates/coupons/apply.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/coupons/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/django_debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/13/1_мышка.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/13/мята_кошка.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/13/мячик_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/1_kiiXT58.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/игрушка1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/игрушка2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/игрушка3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/игрушка4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/игрушка5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/игрушка_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм5.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм_1_av8jT7f.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/корм_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/14/туннель.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/д1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/д1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/д2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/д2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/д3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/д3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/корм4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/корм5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/п1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/п2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/п3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/п4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/16/п5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/2-мышка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д1_rvb81rj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д3_mM3mWzn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/д3_v3tHkpC.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка1_RxqeU9q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка3_0KpyDSo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка4_Drik3BV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка5_Muk4S19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка5_OWm3rF4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка_4_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/игрушка_4_1_ByBAyAu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм-1_f9Pxw9Z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм1_nJflu91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм4_9hw3JgS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм4_IQrg3kU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм5.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм5_yVW1ENH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм_2_MMcZyS8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм_2_vS6drhh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/корм_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/мята_кошка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/мячик2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п2_GrsT4UQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п2_QyvXRXR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/п5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/туннель.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/туннель_Vu74cfF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/media/products/2024/06/18/туннель_twESBZK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/myshop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/myshop/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/myshop/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/myshop/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/myshop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/myshop/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/templates/admin/orders/order/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/templates/orders/order/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/templates/orders/order/created.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/orders/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/migrations/0002_alter_category_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/shop/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/1 мышка.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/animal-background.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/animal-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/animalbackground.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/bone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/fish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/мята кошка.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/static/img/мячик 1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-hidelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/1 мышка.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/animal-background.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/animal-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/bone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/fish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/мята кошка.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myshop/staticfiles/img/мячик 1.jpeg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hq0q96WVw2y7uQepFMzwQV5UoP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DJANGO/myshop/myshop/static/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\myshop\myshop\static\img" />
+      <recent name="D:\DJANGO\myshop\myshop\staticfiles\img" />
+      <recent name="D:\DJANGO\myshop\myshop\media\products\2024\06\13" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\myshop\myshop\static\img" />
+      <recent name="D:\DJANGO\myshop\myshop\staticfiles\img" />
+      <recent name="D:\DJANGO\myshop\myshop\coupons\templates" />
+      <recent name="D:\DJANGO\myshop\myshop\media\products\2024\06\13" />
+      <recent name="D:\DJANGO\myshop\myshop" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="myshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcc62628-56ee-4075-9a2b-2cd4f39836a3" name="Changes" comment="" />
+      <created>1718306488675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718306488675</updated>
+      <workItem from="1718306490481" duration="79584000" />
+      <workItem from="1718535296512" duration="9125000" />
+      <workItem from="1718565476190" duration="57133000" />
+      <workItem from="1718709221478" duration="5116000" />
+      <workItem from="1718721915613" duration="17793000" />
+      <workItem from="1719397645334" duration="2645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ product.name }}</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="{% static 'img/logo.png' %}" alt="Логотип Магазина" class="logo">
+        </a>
+    </header>
+    <nav class="cart-nav">
+        <div class="cart">
+            {% with total_items=cart|length %}
+                {% if cart|length > 0 %}
+                    <a href="{% url 'cart:cart_detail' %}" class="cart-button">
+                        {{ total_items }} товар{{ total_items|pluralize }},
+                        ${{ cart.get_total_price }}
+                    </a>
+                {% else %}
+                    <span class="cart-button">Ваша корзина пуста.</span>
+                {% endif %}
+            {% endwith %}
+        </div>
+    </nav>
+    <div class="container">
+        <div class="product-detail">
+            <h1>{{ product.name }}</h1>
+            <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}" alt="{{ product.name }}">
+            <div class="price">${{ product.price }}</div>
+            <div class="description">{{ product.description|linebreaksbr }}</div>
+
+            <!-- Навигация по продуктам -->
+            <div class="product-navigation">
+                {% if previous_product %}
+                    <a href="{{ previous_product.get_absolute_url }}" class="navigation-arrow">← Previous</a>
+                {% endif %}
+                {% if next_product %}
+                    <a href="{{ next_product.get_absolute_url }}" class="navigation-arrow">Next →</a>
+                {% endif %}
+            </div>
+
+            <!-- Форма добавления в корзину -->
+            <form action="{% url 'cart:cart_add' product.id %}" method="post">
+                {% csrf_token %}
+                {{ cart_product_form }}
+                <button type="submit" class="add-to-cart-button">Добавить в корзину</button>
+            </form>
+        </div>
+    </div>
+
+    <style>
+        .product-navigation {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navigation-arrow {
+            font-size: 16px;
+            font-weight: bold;
+            color: #7e2787;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .navigation-arrow:hover {
+            color: #4b184d;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,236 @@
+{% load i18n %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Магазин{% endblock %}</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <style>
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(126, 39, 135, 0.39);
+            position: relative;
+        }
+
+        /* Стили для списка категорий и других элементов */
+        .category-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .category-item {
+            margin: 0 10px;
+        }
+
+        .category-button {
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            padding: 10px 20px;
+            border: 2px solid #7e2787;
+            border-radius: 5px;
+            background-color: transparent;
+            color: #7e2787;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .category-button:hover {
+            background-color: #7e2787; /* Цвет фона при наведении */
+            color: white; /* Цвет текста при наведении */
+        }
+
+        .category-button.active {
+            background-color: #7e2787; /* Цвет фона для активной категории */
+            color: white; /* Цвет текста для активной категории */
+        }
+
+        /* Стили для обычных кнопок */
+        .add-to-cart-button,
+        .remove-button,
+        .apply-coupon-button {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .add-to-cart-button {
+            background-color: #7e2787;
+        }
+
+        .add-to-cart-button:hover {
+            background-color: rgb(126, 39, 135);
+        }
+
+        .remove-button {
+            background-color: #7e2787;
+        }
+
+        .remove-button:hover {
+            background-color: #7e2787;
+        }
+
+        .apply-coupon-button {
+            background-color: #7e2787;
+        }
+
+        .apply-coupon-button:hover {
+            background-color: #7e2787;
+        }
+
+        /* Стили для больших кнопок */
+        .button.large {
+            display: inline-block;
+            padding: 18px 40px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            background-color: #7e2787;
+            color: rgba(126, 39, 135, 0.39);
+            margin-top: 20px;
+            border: none;
+        }
+
+        .button.large:hover {
+            background-color: rgb(126, 39, 135);
+        }
+
+        /* Стили для косточек и рыбок */
+        .falling-items {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 300vh; /* Высота больше высоты окна для создания прокрутки */
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .falling-item {
+            position: absolute;
+            top: -10px; /* Начальное положение над верхней границей */
+            left: calc(100% * var(--item-x)); /* Случайное горизонтальное положение */
+            width: 30px;
+            height: 30px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            animation: item-fall var(--fall-speed) linear infinite;
+        }
+
+        /* Анимация падения */
+        @keyframes item-fall {
+            0% {
+                transform: translateY(-100vh);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="{% static 'img/logo.png' %}" alt="Логотип Магазина" class="logo">
+        </a>
+    </header>
+    <nav class="cart-nav">
+        <div class="cart">
+            {% with total_items=cart|length %}
+                {% if cart|length > 0 %}
+                    <a href="{% url 'cart:cart_detail' %}" class="cart-button">
+                        {{ total_items }} товар{{ total_items|pluralize }},
+                        ${{ cart.get_total_price }}
+                    </a>
+                {% else %}
+                    <span class="cart-button">Ваша корзина пуста.</span>
+                {% endif %}
+            {% endwith %}
+        </div>
+    </nav>
+    <div class="container">
+
+
+
+        {% block content %}
+        <!-- Примеры кнопок -->
+        <div style="margin-top: 20px;">
+            <button class="add-to-cart-button">Добавить в корзину</button>
+            <button class="remove-button">Удалить</button>
+            <a href="#" class="apply-coupon-button">Применить купон</a>
+            <a href="#" class="cart-button">Корзина</a>
+            <a href="#" class="apply-coupon-button">Применить купон</a>
+            <!-- Пример использования больших кнопок -->
+        </div>
+        {% endblock %}
+    </div>
+    <!-- Пример размещения кнопки в шапке сайта -->
+    <div class="language-switcher">
+        <form action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ request.get_full_path }}">
+            <select name="language" id="language">
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% for lang_code, lang_name in LANGUAGES %}
+                    <option value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
+                        {{ lang_name }}
+                    </option>
+                {% endfor %}
+            </select>
+            <button type="submit">Изменить язык</button>
+        </form>
+    </div>
+
+    <!-- Анимация косточек и рыбок -->
+    <div class="falling-items">
+        <!-- JavaScript для создания косточек и рыбок -->
+        <script>
+            // Генерация случайного числа в заданном диапазоне
+            function getRandom(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+
+            // Создание косточек и рыбок и их стилей
+            document.addEventListener('DOMContentLoaded', function() {
+                const numItems = 20; // Количество косточек и рыбок
+                const container = document.querySelector('.falling-items'); // Контейнер для косточек и рыбок
+                const items = ['{% static "img/bone.png" %}', '{% static "img/fish.png" %}']; // Пути к изображениям
+
+                for (let i = 0; i < numItems; i++) {
+                    const item = document.createElement('div');
+                    item.className = 'falling-item';
+                    item.style.setProperty('--item-x', getRandom(0, 1)); // Случайное положение по оси X
+                    item.style.setProperty('--fall-speed', `${getRandom(5, 10)}s`); // Случайная скорость падения
+                    item.style.backgroundImage = `url(${items[Math.floor(Math.random() * items.length)]})`; // Случайный выбор косточки или рыбки
+                    container.appendChild(item);
+                }
+            });
+        </script>
+    </div>
+
+    <!-- Секция о сайте животных -->
+    <footer class="animal-site">
+        <div class="container">
+            <h2>О нашем сайте для животных</h2>
+            <p>Мы предлагаем широкий ассортимент продукции для ваших питомцев. На нашем сайте вы найдете корма, игрушки, и многое другое для счастливой и здоровой жизни ваших питомцев.</p>
+            <p>Присоединяйтесь к нашему сообществу любящих животных и получайте актуальную информацию о здоровье и уходе за домашними питомцами.</p>
+            <
